@@ -30,6 +30,11 @@ ou
 git add -A
 ==============================
 FAZENDO O PRIMEIRO COMMIT
-git add -m "comentario descritivo do commit"
+git commit -m "comentario descritivo do commit"
 VENDO OS COMMITS FEITOS NO BRENCH
 git log
+
+//pra reverter um commit e voltar pro commit anterior
+git reset --hard id_do_commit anterior
+git reset --soft id_do_commit anterior
+git reset --mixed id_do_commit anterior
