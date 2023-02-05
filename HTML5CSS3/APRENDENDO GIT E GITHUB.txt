@@ -21,7 +21,7 @@ Brench é uma versão do sistema
 master é a brench ou versão principal
 commit é enviar para o git as alterações feitas no sistema
 
-git statua mostra as alterações feitas no sistema
+git status mostra as alterações feitas no sistema
 
 --------------------------------------------------------------------------------------
 ADICONANDO UM ARQUIVO AO GIT
@@ -31,3 +31,5 @@ git add -A
 ==============================
 FAZENDO O PRIMEIRO COMMIT
 git add -m "comentario descritivo do commit"
+VENDO OS COMMITS FEITOS NO BRENCH
+git log
