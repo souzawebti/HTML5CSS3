@@ -1,0 +1,8 @@
+ESCOLA 
+   CLASSES
+    ALUNOSMATRICULAOS
+    AULA
+              ALUNOSPRESENTES
+              ALUNOSAUSENTES
+
+SELECT aluno.nome,classe.nome from aluno inner join classe on classe.id=aluno.classe_id;

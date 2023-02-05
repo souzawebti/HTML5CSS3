@@ -1,0 +1,33 @@
+configurando o git no computador
+daniluca201216@gmail.com
+DEFININDO NOME E EMAIL NO GIT
+git config --global user.name "Silvio Souza"
+git config --global user.email  "dniluca201216@gmail.com"
+
+MOSTRANDO NOME E EMAL DEFINIDOS
+git config --global user.name   <mostra o nome do usuario>
+git config --global user.email <mostra o email do usuario>
+pra verificar tudo que foi cadastrado
+git config --list
+
+REPOSITÓRIO NO GIT
+1-entrar na pasta onde vai criar o repositorio
+cd C:\Users\souza\Desktop\CURSOS\B7WEB\HTML5CSS3
+2-iniciar um repositorio vazio nesta pasta
+git init
+
+3BRENCH
+Brench é uma versão do sistema
+master é a brench ou versão principal
+commit é enviar para o git as alterações feitas no sistema
+
+git statua mostra as alterações feitas no sistema
+
+--------------------------------------------------------------------------------------
+ADICONANDO UM ARQUIVO AO GIT
+git add nomedoarquivo
+ou
+git add -A
+==============================
+FAZENDO O PRIMEIRO COMMIT
+git add -m "comentario descritivo do commit"
